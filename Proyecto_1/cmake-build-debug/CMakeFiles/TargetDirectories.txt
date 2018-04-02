@@ -1,0 +1,4 @@
+/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1.dir
+/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1_autogen.dir
