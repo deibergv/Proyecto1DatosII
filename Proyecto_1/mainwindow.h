@@ -7,26 +7,28 @@
 
 #include <QMainWindow>
 
+#include "codeeditor.h"
+#include "highlighter.h"
+
 namespace Ui {
     class MainWindow;
 }
 
 class MainWindow : public QMainWindow
 {
-Q_OBJECT;
+Q_OBJECT
 
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-    //QString TipoDeDato();
-
 private slots:
-
-    //void on_InsertarInicio_clicked();
+    void on_RunButton_clicked();
+    void on_ClearButton_clicked();
 
 private:
     Ui::MainWindow *ui;
+    Highlighter *highlighter;
 };
 
 #endif //PROYECTO_1_MAINWINDOW_H

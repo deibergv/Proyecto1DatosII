@@ -14,15 +14,14 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QListView>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QScrollArea>
-#include <QtWidgets/QScrollBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
+#include <codeeditor.h>
 
 QT_BEGIN_NAMESPACE
 
@@ -30,65 +29,122 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QPushButton *pushButton;
-    QScrollArea *scrollArea_2;
-    QWidget *scrollAreaWidgetContents_2;
-    QTableView *tableView;
-    QPlainTextEdit *plainTextEdit;
-    QListView *listView;
-    QScrollBar *verticalScrollBar;
-    QScrollBar *horizontalScrollBar;
-    QScrollBar *horizontalScrollBar_2;
-    QScrollBar *verticalScrollBar_2;
-    QListView *listView_2;
+    QPushButton *RunButton;
+    CodeEditor *CodeEditorPlainText;
+    QListView *StdoutlistView;
+    QListView *AppLoglistView;
+    QLabel *RamLabel;
+    QTableView *RAMtableView;
+    QPushButton *ClearButton;
+    QLabel *AppLogLabel;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(742, 525);
+        MainWindow->resize(1282, 802);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(10, 10, 61, 22));
-        scrollArea_2 = new QScrollArea(centralWidget);
-        scrollArea_2->setObjectName(QStringLiteral("scrollArea_2"));
-        scrollArea_2->setGeometry(QRect(479, 0, 261, 501));
-        scrollArea_2->setWidgetResizable(true);
-        scrollAreaWidgetContents_2 = new QWidget();
-        scrollAreaWidgetContents_2->setObjectName(QStringLiteral("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 259, 499));
-        tableView = new QTableView(scrollAreaWidgetContents_2);
-        tableView->setObjectName(QStringLiteral("tableView"));
-        tableView->setGeometry(QRect(0, 0, 261, 511));
-        scrollArea_2->setWidget(scrollAreaWidgetContents_2);
-        plainTextEdit = new QPlainTextEdit(centralWidget);
-        plainTextEdit->setObjectName(QStringLiteral("plainTextEdit"));
-        plainTextEdit->setGeometry(QRect(40, 40, 431, 221));
-        listView = new QListView(centralWidget);
-        listView->setObjectName(QStringLiteral("listView"));
-        listView->setGeometry(QRect(0, 260, 461, 91));
-        verticalScrollBar = new QScrollBar(centralWidget);
-        verticalScrollBar->setObjectName(QStringLiteral("verticalScrollBar"));
-        verticalScrollBar->setGeometry(QRect(460, 260, 16, 91));
-        verticalScrollBar->setOrientation(Qt::Vertical);
-        horizontalScrollBar = new QScrollBar(centralWidget);
-        horizontalScrollBar->setObjectName(QStringLiteral("horizontalScrollBar"));
-        horizontalScrollBar->setGeometry(QRect(0, 350, 461, 16));
-        horizontalScrollBar->setOrientation(Qt::Horizontal);
-        horizontalScrollBar_2 = new QScrollBar(centralWidget);
-        horizontalScrollBar_2->setObjectName(QStringLiteral("horizontalScrollBar_2"));
-        horizontalScrollBar_2->setGeometry(QRect(0, 470, 461, 16));
-        horizontalScrollBar_2->setOrientation(Qt::Horizontal);
-        verticalScrollBar_2 = new QScrollBar(centralWidget);
-        verticalScrollBar_2->setObjectName(QStringLiteral("verticalScrollBar_2"));
-        verticalScrollBar_2->setGeometry(QRect(460, 370, 16, 101));
-        verticalScrollBar_2->setOrientation(Qt::Vertical);
-        listView_2 = new QListView(centralWidget);
-        listView_2->setObjectName(QStringLiteral("listView_2"));
-        listView_2->setGeometry(QRect(0, 380, 461, 91));
+        RunButton = new QPushButton(centralWidget);
+        RunButton->setObjectName(QStringLiteral("RunButton"));
+        RunButton->setGeometry(QRect(10, 10, 51, 16));
+        CodeEditorPlainText = new CodeEditor(centralWidget);
+        CodeEditorPlainText->setObjectName(QStringLiteral("CodeEditorPlainText"));
+        CodeEditorPlainText->setGeometry(QRect(10, 30, 821, 481));
+        QFont font;
+        font.setFamily(QStringLiteral("Source Code Pro"));
+        font.setPointSize(11);
+        CodeEditorPlainText->setFont(font);
+        StdoutlistView = new QListView(centralWidget);
+        StdoutlistView->setObjectName(QStringLiteral("StdoutlistView"));
+        StdoutlistView->setGeometry(QRect(10, 520, 821, 121));
+        AppLoglistView = new QListView(centralWidget);
+        AppLoglistView->setObjectName(QStringLiteral("AppLoglistView"));
+        AppLoglistView->setGeometry(QRect(10, 680, 821, 91));
+        RamLabel = new QLabel(centralWidget);
+        RamLabel->setObjectName(QStringLiteral("RamLabel"));
+        RamLabel->setGeometry(QRect(843, 10, 205, 19));
+        QFont font1;
+        font1.setFamily(QStringLiteral("DejaVu Sans Mono"));
+        font1.setPointSize(11);
+        font1.setBold(true);
+        font1.setItalic(true);
+        font1.setWeight(75);
+        RamLabel->setFont(font1);
+        RAMtableView = new QTableView(centralWidget);
+        RAMtableView->setObjectName(QStringLiteral("RAMtableView"));
+        RAMtableView->setGeometry(QRect(840, 30, 431, 741));
+        ClearButton = new QPushButton(centralWidget);
+        ClearButton->setObjectName(QStringLiteral("ClearButton"));
+        ClearButton->setEnabled(true);
+        ClearButton->setGeometry(QRect(770, 654, 61, 25));
+        QPalette palette;
+        QBrush brush(QColor(0, 0, 0, 255));
+        brush.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::WindowText, brush);
+        QBrush brush1(QColor(208, 208, 208, 255));
+        brush1.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::Button, brush1);
+        QBrush brush2(QColor(255, 255, 255, 255));
+        brush2.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::Light, brush2);
+        QBrush brush3(QColor(231, 231, 231, 255));
+        brush3.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::Midlight, brush3);
+        QBrush brush4(QColor(104, 104, 104, 255));
+        brush4.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::Dark, brush4);
+        QBrush brush5(QColor(139, 139, 139, 255));
+        brush5.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::Mid, brush5);
+        palette.setBrush(QPalette::Active, QPalette::Text, brush);
+        palette.setBrush(QPalette::Active, QPalette::BrightText, brush2);
+        palette.setBrush(QPalette::Active, QPalette::ButtonText, brush);
+        palette.setBrush(QPalette::Active, QPalette::Base, brush2);
+        palette.setBrush(QPalette::Active, QPalette::Window, brush1);
+        palette.setBrush(QPalette::Active, QPalette::Shadow, brush);
+        palette.setBrush(QPalette::Active, QPalette::AlternateBase, brush3);
+        QBrush brush6(QColor(255, 255, 220, 255));
+        brush6.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::ToolTipBase, brush6);
+        palette.setBrush(QPalette::Active, QPalette::ToolTipText, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::WindowText, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::Button, brush1);
+        palette.setBrush(QPalette::Inactive, QPalette::Light, brush2);
+        palette.setBrush(QPalette::Inactive, QPalette::Midlight, brush3);
+        palette.setBrush(QPalette::Inactive, QPalette::Dark, brush4);
+        palette.setBrush(QPalette::Inactive, QPalette::Mid, brush5);
+        palette.setBrush(QPalette::Inactive, QPalette::Text, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::BrightText, brush2);
+        palette.setBrush(QPalette::Inactive, QPalette::ButtonText, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::Base, brush2);
+        palette.setBrush(QPalette::Inactive, QPalette::Window, brush1);
+        palette.setBrush(QPalette::Inactive, QPalette::Shadow, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::AlternateBase, brush3);
+        palette.setBrush(QPalette::Inactive, QPalette::ToolTipBase, brush6);
+        palette.setBrush(QPalette::Inactive, QPalette::ToolTipText, brush);
+        palette.setBrush(QPalette::Disabled, QPalette::WindowText, brush4);
+        palette.setBrush(QPalette::Disabled, QPalette::Button, brush1);
+        palette.setBrush(QPalette::Disabled, QPalette::Light, brush2);
+        palette.setBrush(QPalette::Disabled, QPalette::Midlight, brush3);
+        palette.setBrush(QPalette::Disabled, QPalette::Dark, brush4);
+        palette.setBrush(QPalette::Disabled, QPalette::Mid, brush5);
+        palette.setBrush(QPalette::Disabled, QPalette::Text, brush4);
+        palette.setBrush(QPalette::Disabled, QPalette::BrightText, brush2);
+        palette.setBrush(QPalette::Disabled, QPalette::ButtonText, brush4);
+        palette.setBrush(QPalette::Disabled, QPalette::Base, brush1);
+        palette.setBrush(QPalette::Disabled, QPalette::Window, brush1);
+        palette.setBrush(QPalette::Disabled, QPalette::Shadow, brush);
+        palette.setBrush(QPalette::Disabled, QPalette::AlternateBase, brush1);
+        palette.setBrush(QPalette::Disabled, QPalette::ToolTipBase, brush6);
+        palette.setBrush(QPalette::Disabled, QPalette::ToolTipText, brush);
+        ClearButton->setPalette(palette);
+        ClearButton->setFont(font1);
+        AppLogLabel = new QLabel(centralWidget);
+        AppLogLabel->setObjectName(QStringLiteral("AppLogLabel"));
+        AppLogLabel->setGeometry(QRect(14, 662, 201, 16));
+        AppLogLabel->setFont(font1);
         MainWindow->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QStringLiteral("statusBar"));
@@ -102,7 +158,19 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("MainWindow", "Run", Q_NULLPTR));
+        RunButton->setText(QApplication::translate("MainWindow", "Run", Q_NULLPTR));
+        CodeEditorPlainText->setPlainText(QApplication::translate("MainWindow", "//\n"
+"//	Created by Deiber \n"
+"//\n"
+"int a = 5;\n"
+"double b = 2.0;\n"
+"\"test\"\n"
+"reference<tipo>\n"
+"struct a;\n"
+"", Q_NULLPTR));
+        RamLabel->setText(QApplication::translate("MainWindow", "RAM Live View", Q_NULLPTR));
+        ClearButton->setText(QApplication::translate("MainWindow", "Clear", Q_NULLPTR));
+        AppLogLabel->setText(QApplication::translate("MainWindow", "Application log", Q_NULLPTR));
     } // retranslateUi
 
 };

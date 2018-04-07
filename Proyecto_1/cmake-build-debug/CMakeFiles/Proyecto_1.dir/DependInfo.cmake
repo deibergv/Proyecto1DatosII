@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/mocs_compilation.cpp" "/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1.dir/Proyecto_1_autogen/mocs_compilation.cpp.o"
+  "/home/deiber/CLionProjects/Proyecto_1/codeeditor.cpp" "/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1.dir/codeeditor.cpp.o"
+  "/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/highlighter.cpp" "/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1.dir/highlighter.cpp.o"
   "/home/deiber/CLionProjects/Proyecto_1/main.cpp" "/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1.dir/main.cpp.o"
   "/home/deiber/CLionProjects/Proyecto_1/mainwindow.cpp" "/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1.dir/mainwindow.cpp.o"
   )

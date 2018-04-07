@@ -139,6 +139,18 @@
 		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/highlighter.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/highlighter.h">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/codeeditor.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/codeeditor.h">
+			<Option target="Proyecto_1"/>
+		</Unit>
 		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/main.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>

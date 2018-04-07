@@ -1,22 +1,10 @@
-
-#include <iostream>
-#include <QtWidgets/QInputDialog>
-
-using namespace std;
-
-#include "QApplication"
-#include "QtWidgets/QLabel"
-#include "QtWidgets/QPushButton"
-
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
-#include <QInputDialog>
+#include <QApplication>
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
-
-    MainWindow w;
-    w.show();
-
-    return app.exec();
+    QApplication a(argc, argv);
+    MainWindow window;
+    window.setWindowTitle("C! - IDE");
+    window.show();
+    return a.exec();
 }

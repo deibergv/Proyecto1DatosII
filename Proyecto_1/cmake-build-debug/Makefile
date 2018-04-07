@@ -163,6 +163,60 @@ Proyecto_1_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Proyecto_1_autogen/mocs_compilation.cpp.s
 .PHONY : Proyecto_1_autogen/mocs_compilation.cpp.s
 
+codeeditor.o: codeeditor.cpp.o
+
+.PHONY : codeeditor.o
+
+# target to build an object file
+codeeditor.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/codeeditor.cpp.o
+.PHONY : codeeditor.cpp.o
+
+codeeditor.i: codeeditor.cpp.i
+
+.PHONY : codeeditor.i
+
+# target to preprocess a source file
+codeeditor.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/codeeditor.cpp.i
+.PHONY : codeeditor.cpp.i
+
+codeeditor.s: codeeditor.cpp.s
+
+.PHONY : codeeditor.s
+
+# target to generate assembly for a file
+codeeditor.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/codeeditor.cpp.s
+.PHONY : codeeditor.cpp.s
+
+highlighter.o: highlighter.cpp.o
+
+.PHONY : highlighter.o
+
+# target to build an object file
+highlighter.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/highlighter.cpp.o
+.PHONY : highlighter.cpp.o
+
+highlighter.i: highlighter.cpp.i
+
+.PHONY : highlighter.i
+
+# target to preprocess a source file
+highlighter.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/highlighter.cpp.i
+.PHONY : highlighter.cpp.i
+
+highlighter.s: highlighter.cpp.s
+
+.PHONY : highlighter.s
+
+# target to generate assembly for a file
+highlighter.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/highlighter.cpp.s
+.PHONY : highlighter.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -230,6 +284,12 @@ help:
 	@echo "... Proyecto_1_autogen/mocs_compilation.o"
 	@echo "... Proyecto_1_autogen/mocs_compilation.i"
 	@echo "... Proyecto_1_autogen/mocs_compilation.s"
+	@echo "... codeeditor.o"
+	@echo "... codeeditor.i"
+	@echo "... codeeditor.s"
+	@echo "... highlighter.o"
+	@echo "... highlighter.i"
+	@echo "... highlighter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
