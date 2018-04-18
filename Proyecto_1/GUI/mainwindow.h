@@ -14,8 +14,7 @@ namespace Ui {
     class MainWindow;
 }
 
-class MainWindow : public QMainWindow
-{
+class MainWindow : public QMainWindow {
 Q_OBJECT
 
 public:
@@ -25,6 +24,9 @@ public:
 private slots:
     void on_RunButton_clicked();
     void on_ClearButton_clicked();
+    void on_StepButton_clicked();
+    void on_StopButton_clicked();
+    void UpdateRamView();
 
 private:
     Ui::MainWindow *ui;

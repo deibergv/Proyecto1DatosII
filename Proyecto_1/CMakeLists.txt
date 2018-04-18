@@ -21,12 +21,20 @@ set(QT5_LIBRARIES Qt5::Core Qt5::Widgets Qt5::Network Qt5::PrintSupport Qt5::Sql
 set(Proyecto_1 ${CMAKE_PROJECT_NAME})
 
 set(SOURCES
-        main.cpp mainwindow.cpp mainwindow.h codeeditor.cpp codeeditor.h cmake-build-debug/highlighter.cpp cmake-build-debug/highlighter.h)
-#mainwindow.cpp
-#mainwindow.h)
+        main.cpp
+        GUI/mainwindow.cpp
+        GUI/mainwindow.h
+        GUI/codeeditor.cpp
+        GUI/codeeditor.h
+        GUI/highlighter.cpp
+        GUI/highlighter.h
+        #Parse/Parser.cpp
+        #Parse/Parser.h
+        Parse/Tokens.cpp
+        Parse/Tokens.h)
 
 set(UI_SOURCES
-        mainwindow.ui
+        GUI/mainwindow.ui
         )
 
 qt5_wrap_ui(UI_GERERATED_HEADERS ${UI_SOURCES})

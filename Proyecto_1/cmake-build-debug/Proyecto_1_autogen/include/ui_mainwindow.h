@@ -21,7 +21,7 @@
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
-#include <codeeditor.h>
+#include "GUI/codeeditor.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -37,13 +37,15 @@ public:
     QTableView *RAMtableView;
     QPushButton *ClearButton;
     QLabel *AppLogLabel;
+    QPushButton *StepButton;
+    QPushButton *StopButton;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(1282, 802);
+        MainWindow->resize(1251, 802);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         RunButton = new QPushButton(centralWidget);
@@ -74,10 +76,10 @@ public:
         RamLabel->setFont(font1);
         RAMtableView = new QTableView(centralWidget);
         RAMtableView->setObjectName(QStringLiteral("RAMtableView"));
-        RAMtableView->setGeometry(QRect(840, 30, 431, 741));
+        RAMtableView->setGeometry(QRect(840, 30, 402, 741));
         ClearButton = new QPushButton(centralWidget);
         ClearButton->setObjectName(QStringLiteral("ClearButton"));
-        ClearButton->setEnabled(true);
+        ClearButton->setEnabled(false);
         ClearButton->setGeometry(QRect(770, 654, 61, 25));
         QPalette palette;
         QBrush brush(QColor(0, 0, 0, 255));
@@ -145,6 +147,14 @@ public:
         AppLogLabel->setObjectName(QStringLiteral("AppLogLabel"));
         AppLogLabel->setGeometry(QRect(14, 662, 201, 16));
         AppLogLabel->setFont(font1);
+        StepButton = new QPushButton(centralWidget);
+        StepButton->setObjectName(QStringLiteral("StepButton"));
+        StepButton->setEnabled(false);
+        StepButton->setGeometry(QRect(70, 10, 57, 16));
+        StopButton = new QPushButton(centralWidget);
+        StopButton->setObjectName(QStringLiteral("StopButton"));
+        StopButton->setEnabled(false);
+        StopButton->setGeometry(QRect(130, 10, 51, 16));
         MainWindow->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QStringLiteral("statusBar"));
@@ -159,7 +169,7 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
         RunButton->setText(QApplication::translate("MainWindow", "Run", Q_NULLPTR));
-        CodeEditorPlainText->setPlainText(QApplication::translate("MainWindow", "//\n"
+        CodeEditorPlainText->setProperty("plainText", QVariant(QApplication::translate("MainWindow", "//\n"
 "//	Created by Deiber \n"
 "//\n"
 "int a = 5;\n"
@@ -167,10 +177,12 @@ public:
 "\"test\"\n"
 "reference<tipo>\n"
 "struct a;\n"
-"", Q_NULLPTR));
+"", Q_NULLPTR)));
         RamLabel->setText(QApplication::translate("MainWindow", "RAM Live View", Q_NULLPTR));
         ClearButton->setText(QApplication::translate("MainWindow", "Clear", Q_NULLPTR));
         AppLogLabel->setText(QApplication::translate("MainWindow", "Application log", Q_NULLPTR));
+        StepButton->setText(QApplication::translate("MainWindow", "Step ->", Q_NULLPTR));
+        StopButton->setText(QApplication::translate("MainWindow", "Stop", Q_NULLPTR));
     } // retranslateUi
 
 };

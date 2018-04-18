@@ -136,6 +136,114 @@ Proyecto_1_autogen/fast:
 	$(MAKE) -f CMakeFiles/Proyecto_1_autogen.dir/build.make CMakeFiles/Proyecto_1_autogen.dir/build
 .PHONY : Proyecto_1_autogen/fast
 
+GUI/codeeditor.o: GUI/codeeditor.cpp.o
+
+.PHONY : GUI/codeeditor.o
+
+# target to build an object file
+GUI/codeeditor.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/codeeditor.cpp.o
+.PHONY : GUI/codeeditor.cpp.o
+
+GUI/codeeditor.i: GUI/codeeditor.cpp.i
+
+.PHONY : GUI/codeeditor.i
+
+# target to preprocess a source file
+GUI/codeeditor.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/codeeditor.cpp.i
+.PHONY : GUI/codeeditor.cpp.i
+
+GUI/codeeditor.s: GUI/codeeditor.cpp.s
+
+.PHONY : GUI/codeeditor.s
+
+# target to generate assembly for a file
+GUI/codeeditor.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/codeeditor.cpp.s
+.PHONY : GUI/codeeditor.cpp.s
+
+GUI/highlighter.o: GUI/highlighter.cpp.o
+
+.PHONY : GUI/highlighter.o
+
+# target to build an object file
+GUI/highlighter.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/highlighter.cpp.o
+.PHONY : GUI/highlighter.cpp.o
+
+GUI/highlighter.i: GUI/highlighter.cpp.i
+
+.PHONY : GUI/highlighter.i
+
+# target to preprocess a source file
+GUI/highlighter.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/highlighter.cpp.i
+.PHONY : GUI/highlighter.cpp.i
+
+GUI/highlighter.s: GUI/highlighter.cpp.s
+
+.PHONY : GUI/highlighter.s
+
+# target to generate assembly for a file
+GUI/highlighter.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/highlighter.cpp.s
+.PHONY : GUI/highlighter.cpp.s
+
+GUI/mainwindow.o: GUI/mainwindow.cpp.o
+
+.PHONY : GUI/mainwindow.o
+
+# target to build an object file
+GUI/mainwindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/mainwindow.cpp.o
+.PHONY : GUI/mainwindow.cpp.o
+
+GUI/mainwindow.i: GUI/mainwindow.cpp.i
+
+.PHONY : GUI/mainwindow.i
+
+# target to preprocess a source file
+GUI/mainwindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/mainwindow.cpp.i
+.PHONY : GUI/mainwindow.cpp.i
+
+GUI/mainwindow.s: GUI/mainwindow.cpp.s
+
+.PHONY : GUI/mainwindow.s
+
+# target to generate assembly for a file
+GUI/mainwindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/mainwindow.cpp.s
+.PHONY : GUI/mainwindow.cpp.s
+
+Parse/Tokens.o: Parse/Tokens.cpp.o
+
+.PHONY : Parse/Tokens.o
+
+# target to build an object file
+Parse/Tokens.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parse/Tokens.cpp.o
+.PHONY : Parse/Tokens.cpp.o
+
+Parse/Tokens.i: Parse/Tokens.cpp.i
+
+.PHONY : Parse/Tokens.i
+
+# target to preprocess a source file
+Parse/Tokens.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parse/Tokens.cpp.i
+.PHONY : Parse/Tokens.cpp.i
+
+Parse/Tokens.s: Parse/Tokens.cpp.s
+
+.PHONY : Parse/Tokens.s
+
+# target to generate assembly for a file
+Parse/Tokens.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parse/Tokens.cpp.s
+.PHONY : Parse/Tokens.cpp.s
+
 Proyecto_1_autogen/mocs_compilation.o: Proyecto_1_autogen/mocs_compilation.cpp.o
 
 .PHONY : Proyecto_1_autogen/mocs_compilation.o
@@ -162,60 +270,6 @@ Proyecto_1_autogen/mocs_compilation.s: Proyecto_1_autogen/mocs_compilation.cpp.s
 Proyecto_1_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Proyecto_1_autogen/mocs_compilation.cpp.s
 .PHONY : Proyecto_1_autogen/mocs_compilation.cpp.s
-
-codeeditor.o: codeeditor.cpp.o
-
-.PHONY : codeeditor.o
-
-# target to build an object file
-codeeditor.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/codeeditor.cpp.o
-.PHONY : codeeditor.cpp.o
-
-codeeditor.i: codeeditor.cpp.i
-
-.PHONY : codeeditor.i
-
-# target to preprocess a source file
-codeeditor.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/codeeditor.cpp.i
-.PHONY : codeeditor.cpp.i
-
-codeeditor.s: codeeditor.cpp.s
-
-.PHONY : codeeditor.s
-
-# target to generate assembly for a file
-codeeditor.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/codeeditor.cpp.s
-.PHONY : codeeditor.cpp.s
-
-highlighter.o: highlighter.cpp.o
-
-.PHONY : highlighter.o
-
-# target to build an object file
-highlighter.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/highlighter.cpp.o
-.PHONY : highlighter.cpp.o
-
-highlighter.i: highlighter.cpp.i
-
-.PHONY : highlighter.i
-
-# target to preprocess a source file
-highlighter.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/highlighter.cpp.i
-.PHONY : highlighter.cpp.i
-
-highlighter.s: highlighter.cpp.s
-
-.PHONY : highlighter.s
-
-# target to generate assembly for a file
-highlighter.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/highlighter.cpp.s
-.PHONY : highlighter.cpp.s
 
 main.o: main.cpp.o
 
@@ -244,33 +298,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-
-.PHONY : mainwindow.o
-
-# target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
-
-mainwindow.i: mainwindow.cpp.i
-
-.PHONY : mainwindow.i
-
-# target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
-
-mainwindow.s: mainwindow.cpp.s
-
-.PHONY : mainwindow.s
-
-# target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -281,21 +308,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proyecto_1"
 	@echo "... Proyecto_1_autogen"
+	@echo "... GUI/codeeditor.o"
+	@echo "... GUI/codeeditor.i"
+	@echo "... GUI/codeeditor.s"
+	@echo "... GUI/highlighter.o"
+	@echo "... GUI/highlighter.i"
+	@echo "... GUI/highlighter.s"
+	@echo "... GUI/mainwindow.o"
+	@echo "... GUI/mainwindow.i"
+	@echo "... GUI/mainwindow.s"
+	@echo "... Parse/Tokens.o"
+	@echo "... Parse/Tokens.i"
+	@echo "... Parse/Tokens.s"
 	@echo "... Proyecto_1_autogen/mocs_compilation.o"
 	@echo "... Proyecto_1_autogen/mocs_compilation.i"
 	@echo "... Proyecto_1_autogen/mocs_compilation.s"
-	@echo "... codeeditor.o"
-	@echo "... codeeditor.i"
-	@echo "... codeeditor.s"
-	@echo "... highlighter.o"
-	@echo "... highlighter.i"
-	@echo "... highlighter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
 .PHONY : help
 
 

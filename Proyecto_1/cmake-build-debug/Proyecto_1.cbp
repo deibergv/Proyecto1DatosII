@@ -136,28 +136,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/codeeditor.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/codeeditor.h">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/highlighter.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/highlighter.h">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/mainwindow.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/mainwindow.h">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/Parse/Tokens.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/Parse/Tokens.h">
+			<Option target="Proyecto_1"/>
+		</Unit>
 		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/mocs_compilation.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/highlighter.cpp">
-			<Option target="Proyecto_1"/>
-		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/highlighter.h">
-			<Option target="Proyecto_1"/>
-		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/codeeditor.cpp">
-			<Option target="Proyecto_1"/>
-		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/codeeditor.h">
-			<Option target="Proyecto_1"/>
-		</Unit>
 		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/main.cpp">
-			<Option target="Proyecto_1"/>
-		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/mainwindow.cpp">
-			<Option target="Proyecto_1"/>
-		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/mainwindow.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
 		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/CMakeLists.txt">
