@@ -1,0 +1,9 @@
+arguments: /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1
+Current dir: /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2018-04-21 01:26:50.197 (  14.021s) [main thread     ]               loguru.h:2034     0| Logging to 'C_IDE_log.log', mode: 'w', verbosity: 0
+2018-04-21 01:26:51.396 (  15.220s) [main thread     ]         mainwindow.cpp:51       0| Execution started
+2018-04-21 01:26:52.396 (  16.221s) [main thread     ]         mainwindow.cpp:78       0| Execution stopped
+2018-04-21 01:26:55.900 (  19.725s) [main thread     ]         mainwindow.cpp:51       0| Execution started
+2018-04-21 01:26:58.024 (  21.849s) [main thread     ]               loguru.h:1752     0| atexit

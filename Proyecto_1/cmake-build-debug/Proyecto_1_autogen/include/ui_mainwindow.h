@@ -20,6 +20,7 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTableView>
+#include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QWidget>
 #include "GUI/codeeditor.h"
 
@@ -32,13 +33,13 @@ public:
     QPushButton *RunButton;
     CodeEditor *CodeEditorPlainText;
     QListView *StdoutlistView;
-    QListView *AppLoglistView;
     QLabel *RamLabel;
     QTableView *RAMtableView;
     QPushButton *ClearButton;
     QLabel *AppLogLabel;
     QPushButton *StepButton;
     QPushButton *StopButton;
+    QTextBrowser *AppLogView;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -61,9 +62,6 @@ public:
         StdoutlistView = new QListView(centralWidget);
         StdoutlistView->setObjectName(QStringLiteral("StdoutlistView"));
         StdoutlistView->setGeometry(QRect(10, 520, 821, 121));
-        AppLoglistView = new QListView(centralWidget);
-        AppLoglistView->setObjectName(QStringLiteral("AppLoglistView"));
-        AppLoglistView->setGeometry(QRect(10, 680, 821, 91));
         RamLabel = new QLabel(centralWidget);
         RamLabel->setObjectName(QStringLiteral("RamLabel"));
         RamLabel->setGeometry(QRect(843, 10, 205, 19));
@@ -79,7 +77,7 @@ public:
         RAMtableView->setGeometry(QRect(840, 30, 402, 741));
         ClearButton = new QPushButton(centralWidget);
         ClearButton->setObjectName(QStringLiteral("ClearButton"));
-        ClearButton->setEnabled(false);
+        ClearButton->setEnabled(true);
         ClearButton->setGeometry(QRect(770, 654, 61, 25));
         QPalette palette;
         QBrush brush(QColor(0, 0, 0, 255));
@@ -155,6 +153,9 @@ public:
         StopButton->setObjectName(QStringLiteral("StopButton"));
         StopButton->setEnabled(false);
         StopButton->setGeometry(QRect(130, 10, 51, 16));
+        AppLogView = new QTextBrowser(centralWidget);
+        AppLogView->setObjectName(QStringLiteral("AppLogView"));
+        AppLogView->setGeometry(QRect(10, 680, 821, 91));
         MainWindow->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QStringLiteral("statusBar"));
@@ -183,6 +184,17 @@ public:
         AppLogLabel->setText(QApplication::translate("MainWindow", "Application log", Q_NULLPTR));
         StepButton->setText(QApplication::translate("MainWindow", "Step ->", Q_NULLPTR));
         StopButton->setText(QApplication::translate("MainWindow", "Stop", Q_NULLPTR));
+        AppLogView->setHtml(QApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">aa</span></p>\n"
+"<p style=\" m"
+                        "argin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p></body></html>", Q_NULLPTR));
     } // retranslateUi
 
 };

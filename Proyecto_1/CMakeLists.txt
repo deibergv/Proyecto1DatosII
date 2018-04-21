@@ -4,7 +4,6 @@ project(Proyecto_1)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_PREFIX_PATH "/opt/qt/5.6/gcc_64/") #Qt
-
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -30,8 +29,9 @@ set(SOURCES
         GUI/highlighter.h
         #Parse/Parser.cpp
         #Parse/Parser.h
-        Parse/Tokens.cpp
-        Parse/Tokens.h)
+        #Parse/Tokens.cpp
+        #Parse/Tokens.h
+	)
 
 set(UI_SOURCES
         GUI/mainwindow.ui
@@ -42,3 +42,7 @@ qt5_wrap_ui(UI_GERERATED_HEADERS ${UI_SOURCES})
 add_executable(${Proyecto_1} ${SOURCES} ${UI_GENERATED_HEADERS})
 
 target_link_libraries(${Proyecto_1} ${QT5_LIBRARIES})
+
+find_package(Threads)
+target_link_libraries(Proyecto_1 ${CMAKE_THREAD_LIBS_INIT}) # For pthreads
+target_link_libraries(Proyecto_1 dl) # For ldl

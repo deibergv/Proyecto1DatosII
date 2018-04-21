@@ -26,6 +26,8 @@ private slots:
     void on_ClearButton_clicked();
     void on_StepButton_clicked();
     void on_StopButton_clicked();
+    void ParseCode();
+    void UpdateLogView();
     void UpdateRamView();
 
 private:
