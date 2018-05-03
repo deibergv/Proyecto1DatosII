@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/deiber/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/kisung/Escritorio/CLion/CLion-2017.3.3/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/deiber/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/kisung/Escritorio/CLion/CLion-2017.3.3/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/deiber/CLionProjects/Proyecto_1
+CMAKE_SOURCE_DIR = "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"
 
 # Utility rule file for Proyecto_1_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug
 include CMakeFiles/Proyecto_1_autogen.dir/progress.make
 
 CMakeFiles/Proyecto_1_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Proyecto_1"
-	/home/deiber/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_autogen /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1_autogen.dir Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Proyecto_1"
+	/home/kisung/Escritorio/CLion/CLion-2017.3.3/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_autogen "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1_autogen.dir" Debug
 
 Proyecto_1_autogen: CMakeFiles/Proyecto_1_autogen
 Proyecto_1_autogen: CMakeFiles/Proyecto_1_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/Proyecto_1_autogen.dir/clean:
 .PHONY : CMakeFiles/Proyecto_1_autogen.dir/clean
 
 CMakeFiles/Proyecto_1_autogen.dir/depend:
-	cd /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/deiber/CLionProjects/Proyecto_1 /home/deiber/CLionProjects/Proyecto_1 /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1" "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1" "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug" "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug" "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/CMakeFiles/Proyecto_1_autogen.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto_1_autogen.dir/depend
 

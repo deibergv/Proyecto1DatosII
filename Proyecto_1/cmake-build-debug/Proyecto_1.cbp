@@ -5,41 +5,41 @@
 		<Option title="Proyecto_1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Qt5.7.0\;CMake Files\..\..\..\Qt5.7.0\5.7\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5PrintSupport\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Sql\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Xml\;CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug"/>
+				<Option working_dir="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug"/>
+				<Option working_dir="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug"/>
+				<Option working_dir="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1">
-				<Option output="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug"/>
+				<Option output="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/Proyecto_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,38 +52,39 @@
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
 					<Add option="-DQT_OPENGL_LIB"/>
-					<Add directory="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug"/>
-					<Add directory="/home/deiber/CLionProjects/Proyecto_1"/>
-					<Add directory="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"/>
+					<Add directory="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1"/>
+					<Add directory="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/include"/>
+					<Add directory="/home/kisung/include"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtCore"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtGui"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtNetwork"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtPrintSupport"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtSql"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtXml"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1/fast">
-				<Option output="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug"/>
+				<Option output="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/Proyecto_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -96,144 +97,256 @@
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_XML_LIB"/>
 					<Add option="-DQT_OPENGL_LIB"/>
-					<Add directory="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug"/>
-					<Add directory="/home/deiber/CLionProjects/Proyecto_1"/>
-					<Add directory="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtNetwork"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSql"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtXml"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"/>
-					<Add directory="/usr/include/c++/6"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
-					<Add directory="/usr/include/c++/6/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"/>
+					<Add directory="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1"/>
+					<Add directory="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/include"/>
+					<Add directory="/home/kisung/include"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtCore"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtGui"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtNetwork"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtPrintSupport"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtSql"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtXml"/>
+					<Add directory="/home/kisung/Qt5.7.0/5.7/gcc_64/include/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1_autogen">
-				<Option working_dir="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug"/>
+				<Option working_dir="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_autogen"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/codeeditor.cpp">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/Client/Client.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/codeeditor.h">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/Client/Client.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/highlighter.cpp">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/GUI/codeeditor.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/highlighter.h">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/GUI/codeeditor.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/mainwindow.cpp">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/GUI/highlighter.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/GUI/mainwindow.h">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/GUI/highlighter.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/Parse/Tokens.cpp">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/GUI/mainwindow.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/Parse/Tokens.h">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/GUI/mainwindow.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/Parser/Parser.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/main.cpp">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/Parser/Parser.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/CMakeLists.txt">
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/Parser/tokens.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/Parser/tokens.h">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/Proyecto_1_autogen/mocs_compilation.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/main.cpp">
+			<Option target="Proyecto_1"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Sql\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/deiber/CLionProjects/Proyecto_1/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QCupsPrinterSupportPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5PrintSupport\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Xml\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

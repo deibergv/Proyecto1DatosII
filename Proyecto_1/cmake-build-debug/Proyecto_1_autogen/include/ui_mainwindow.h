@@ -46,7 +46,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(1251, 802);
+        MainWindow->resize(1251, 676);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         RunButton = new QPushButton(centralWidget);
@@ -54,14 +54,14 @@ public:
         RunButton->setGeometry(QRect(10, 10, 51, 16));
         CodeEditorPlainText = new CodeEditor(centralWidget);
         CodeEditorPlainText->setObjectName(QStringLiteral("CodeEditorPlainText"));
-        CodeEditorPlainText->setGeometry(QRect(10, 30, 821, 481));
+        CodeEditorPlainText->setGeometry(QRect(10, 30, 821, 361));
         QFont font;
         font.setFamily(QStringLiteral("Source Code Pro"));
         font.setPointSize(11);
         CodeEditorPlainText->setFont(font);
         StdoutlistView = new QListView(centralWidget);
         StdoutlistView->setObjectName(QStringLiteral("StdoutlistView"));
-        StdoutlistView->setGeometry(QRect(10, 520, 821, 121));
+        StdoutlistView->setGeometry(QRect(10, 400, 821, 111));
         RamLabel = new QLabel(centralWidget);
         RamLabel->setObjectName(QStringLiteral("RamLabel"));
         RamLabel->setGeometry(QRect(843, 10, 205, 19));
@@ -74,11 +74,11 @@ public:
         RamLabel->setFont(font1);
         RAMtableView = new QTableView(centralWidget);
         RAMtableView->setObjectName(QStringLiteral("RAMtableView"));
-        RAMtableView->setGeometry(QRect(840, 30, 402, 741));
+        RAMtableView->setGeometry(QRect(840, 30, 402, 611));
         ClearButton = new QPushButton(centralWidget);
         ClearButton->setObjectName(QStringLiteral("ClearButton"));
         ClearButton->setEnabled(true);
-        ClearButton->setGeometry(QRect(770, 654, 61, 25));
+        ClearButton->setGeometry(QRect(770, 520, 61, 25));
         QPalette palette;
         QBrush brush(QColor(0, 0, 0, 255));
         brush.setStyle(Qt::SolidPattern);
@@ -143,7 +143,7 @@ public:
         ClearButton->setFont(font1);
         AppLogLabel = new QLabel(centralWidget);
         AppLogLabel->setObjectName(QStringLiteral("AppLogLabel"));
-        AppLogLabel->setGeometry(QRect(14, 662, 201, 16));
+        AppLogLabel->setGeometry(QRect(10, 530, 201, 16));
         AppLogLabel->setFont(font1);
         StepButton = new QPushButton(centralWidget);
         StepButton->setObjectName(QStringLiteral("StepButton"));
@@ -155,7 +155,12 @@ public:
         StopButton->setGeometry(QRect(130, 10, 51, 16));
         AppLogView = new QTextBrowser(centralWidget);
         AppLogView->setObjectName(QStringLiteral("AppLogView"));
-        AppLogView->setGeometry(QRect(10, 680, 821, 91));
+        AppLogView->setGeometry(QRect(10, 550, 821, 91));
+        QSizePolicy sizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(AppLogView->sizePolicy().hasHeightForWidth());
+        AppLogView->setSizePolicy(sizePolicy);
         MainWindow->setCentralWidget(centralWidget);
         statusBar = new QStatusBar(MainWindow);
         statusBar->setObjectName(QStringLiteral("statusBar"));
@@ -170,14 +175,11 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
         RunButton->setText(QApplication::translate("MainWindow", "Run", Q_NULLPTR));
-        CodeEditorPlainText->setProperty("plainText", QVariant(QApplication::translate("MainWindow", "//\n"
-"//	Created by Deiber \n"
-"//\n"
-"int a = 5;\n"
-"double b = 2.0;\n"
-"\"test\"\n"
-"reference<tipo>\n"
-"struct a;\n"
+        CodeEditorPlainText->setProperty("plainText", QVariant(QApplication::translate("MainWindow", "int a = 5;\n"
+"double b = 2.012;\n"
+"char c = 'x';\n"
+"long d = 10 \n"
+"float e = 1.20;\n"
 "", Q_NULLPTR)));
         RamLabel->setText(QApplication::translate("MainWindow", "RAM Live View", Q_NULLPTR));
         ClearButton->setText(QApplication::translate("MainWindow", "Clear", Q_NULLPTR));
@@ -188,13 +190,7 @@ public:
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">aa</span></p>\n"
-"<p style=\" m"
-                        "argin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#a40000;\">a</span></p></body></html>", Q_NULLPTR));
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", Q_NULLPTR));
     } // retranslateUi
 
 };

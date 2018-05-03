@@ -1,9 +1,22 @@
-arguments: /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/Proyecto_1
-Current dir: /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug
+arguments: /home/kisung/CLionProjects/Proyecto\ I\ Datos\ II/Proyecto_1/cmake-build-debug/Proyecto_1
+Current dir: /home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug
 File verbosity level: 0
 date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
-2018-04-21 01:26:50.197 (  14.021s) [main thread     ]               loguru.h:2034     0| Logging to 'C_IDE_log.log', mode: 'w', verbosity: 0
-2018-04-21 01:26:51.396 (  15.220s) [main thread     ]         mainwindow.cpp:51       0| Execution started
-2018-04-21 01:26:52.396 (  16.221s) [main thread     ]         mainwindow.cpp:78       0| Execution stopped
-2018-04-21 01:26:55.900 (  19.725s) [main thread     ]         mainwindow.cpp:51       0| Execution started
-2018-04-21 01:26:58.024 (  21.849s) [main thread     ]               loguru.h:1752     0| atexit
+2018-04-21 10:08:26.079 (   0.000s) [main thread     ]               loguru.h:2034     0| Logging to 'C_IDE_log.log', mode: 'w', verbosity: 0
+2018-04-21 10:08:26.079 (   0.000s) [main thread     ]               main.cpp:9        0| IDE started
+2018-04-21 10:08:26.117 (   0,038s) [main thread     ]             Client.cpp:23       0| => Socket client has been created...
+2018-04-21 10:08:26.117 (   0,039s) [main thread     ]             Client.cpp:48       0|  >= std::numeric_limits<FloatType>::max_digits10
+2018-04-21 10:08:26.118 (   0,039s) [main thread     ]             Client.cpp:59       0| => Connection confirmed, you are good to go...
+2018-04-21 10:09:06.187 (  40,108s) [main thread     ]         mainwindow.cpp:47       0| Execution started
+Stack trace:
+9       0x55929267ecca /home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/Proyecto_1(+0xecca) [0x55929267ecca]
+8       0x7f5ba76dc1c1 __libc_start_main + 241
+7       0x559292685086 /home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/Proyecto_1(+0x15086) [0x559292685086]
+6       0x7f5ba82b2bad QCoreApplication::exec() + 141
+5       0x7f5ba82aadca QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 234
+4       0x7f5ba82fa047 QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 87
+3       0x7f5ba45ae27c g_main_context_iteration + 44
+2       0x7f5ba45ae169 /lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x4b169) [0x7f5ba45ae169]
+1       0x7f5ba77c3951 __poll + 97
+0       0x7f5ba996e150 /lib/x86_64-linux-gnu/libpthread.so.0(+0x13150) [0x7f5ba996e150]
+2018-04-21 11:37:26.035 ( 250,796s) [main thread     ]                       :0     FATL| Signal: SIGTERM

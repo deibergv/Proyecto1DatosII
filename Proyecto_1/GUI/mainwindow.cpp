@@ -1,21 +1,20 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "QStandardItemModel"
-
 #include <QStringListModel>
 #include <iostream>
 #include <loguru.h>
 #include <QtWidgets>
 
 /**
- * Inicializacion de listas usadas para mostrar datos
+ * Inicializacion de parametros usadas para mostrar datos
  */
 QStringListModel *modelStdout = new QStringListModel();
-QStringList Stdout;
 QStandardItemModel *modelRAM = new QStandardItemModel();
+QStringList Stdout;
+int CurrentLine = 0;
 
-MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow)
-{
+MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
     highlighter = new Highlighter(ui->CodeEditorPlainText->document());
 
@@ -26,10 +25,13 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     modelRAM->setHorizontalHeaderItem(3, new QStandardItem(QString("References")));
     ui->RAMtableView->setModel(modelRAM);   // Montaje de nombres de columnas
     ui->RAMtableView->setEditTriggers(QAbstractItemView::NoEditTriggers);   // bloqueo a edicion de tabla
-    ui->StdoutlistView->setModel(modelStdout);
+
     ui->StdoutlistView->setEditTriggers(QAbstractItemView::NoEditTriggers); // bloqueo a edicion de Stdout
     UpdateLogView();    // iniciacion de muestra de datos del Log application
     ui->AppLogView->verticalScrollBar()->setValue(ui->AppLogView->verticalScrollBar()->maximum());
+    Stdout.append(">>");
+    modelStdout->setStringList(Stdout);
+    ui->StdoutlistView->setModel(modelStdout);
 }
 
 MainWindow::~MainWindow()
@@ -42,12 +44,6 @@ MainWindow::~MainWindow()
  */
 void MainWindow::on_RunButton_clicked()
 {
-
-    //llenado de lista Stdout
-    Stdout.append(">>");
-    modelStdout->setStringList(Stdout);
-
-
     LOG_F(INFO, "Execution started");
     UpdateLogView();
 
@@ -55,6 +51,7 @@ void MainWindow::on_RunButton_clicked()
     ui->RunButton->setEnabled(false);
     ui->StopButton->setEnabled(true);
     ui->StepButton->setEnabled(true);
+    CurrentLine = 0;
 }
 
 /**
@@ -62,7 +59,17 @@ void MainWindow::on_RunButton_clicked()
  */
 void MainWindow::on_StepButton_clicked()
 {
-    // cada step del debugger
+    // parseo de cada linea
+    QStringList lines = ui->CodeEditorPlainText->toPlainText().split('\n', QString::SkipEmptyParts);
+    if (CurrentLine < lines.size()) {
+
+        parser ->parseCode(lines.at(CurrentLine).toLocal8Bit().constData());
+
+        UpdateLogView();
+        CurrentLine += 1;
+        UpdateRamView();
+    } else
+        on_StopButton_clicked();
 }
 
 /**
@@ -74,7 +81,7 @@ void MainWindow::on_StopButton_clicked()
         ui->RunButton->setEnabled(true);
         ui->StepButton->setEnabled(false);
         ui->StopButton->setEnabled(false);
-        //currentLine = 0;
+        CurrentLine = 0;
         LOG_F(INFO, "Execution stopped");
         UpdateLogView();
     }
@@ -90,16 +97,6 @@ void MainWindow::on_ClearButton_clicked()
     file.remove();
     loguru::add_file("C_IDE_log.log", loguru::Truncate, loguru::Verbosity_INFO);
 }
-
-/**
- * Llamado a parseo del codigo en el Editor
- * @return Json
- */
-void MainWindow::ParseCode() {
-    //UpdateLogView();
-    /*parseCode(ui->CodeEditorPlainText->toPlainText().toStdString());
-    return getJSON();*/
-};
 
 /**
  * Actualizacion del Log para mostrar errores a tiempo real
@@ -121,35 +118,48 @@ void MainWindow::UpdateLogView() {
  */
 void MainWindow::UpdateRamView() {      //QJsonObject &json
 
-    /*QJsonDocument doc(json);
-    QJsonArray contents = json["Contents"].toArray();*/
+    //QJsonArray contents = json["Contents"].toArray();
 
-    /*for(int i = 0; i < contents.size(); ++i) {
-        QJsonDocument d(contents[i].toObject());
+    for(json json1 : jsonList) {
+//        QJsonDocument d(contents[i].toObject());
         //std::cout << d.toJson(QJsonDocument::Compact).toStdString() << std::endl;
 
         QList<QStandardItem *> fillcolumns;
 
+//        contents[i].toObject().value("Direction").toString()
+        string position = json1["pos"];
+        QString str = QString::fromUtf8(position.c_str());
         QStandardItem *direction =
-                new QStandardItem(contents[i].toObject().value("Direction").toString());
+                new QStandardItem(str);
         fillcolumns.append(direction);
 
-        QVariant val = contents[i].toObject().value("Value").toVariant();
-        QString s = QString::fromStdString(val.toString().toStdString());
+//        QVariant val = contents[i].toObject().value("Value").toVariant();
+//        val.toString().toStdString()
+        string valorJson = json1["valor"];
+        QString s = QString::fromStdString(valorJson);
         QStandardItem* value =
                 new QStandardItem(s);
         fillcolumns.append(value);
 
+//        contents[i].toObject().value("Tag").toString("no tag")
+        QString tagName = QString::fromStdString(json1["etiqueta"]);
         QStandardItem *tag =
-                new QStandardItem(contents[i].toObject().value("Tag").toString("no tag"));
+                new QStandardItem(tagName);
         fillcolumns.append(tag);
 
-        int ref = contents[i].toObject().value("References").toInt(0);
-        QString ss = QString::fromStdString(std::to_string(ref));
+//        contents[i].toObject().value("References").toInt(0);
+        int ref = json1["ref"];
+        QString referenceCounter = QString::fromStdString(std::to_string(ref));
         QStandardItem *references =
-                new QStandardItem(ss);
+                new QStandardItem(referenceCounter);
         fillcolumns.append(references);
 
         modelRAM->appendRow(fillcolumns);
-    }*/
+    }
 }
+
+void MainWindow::stdout(QString data) {
+    Stdout.append(data);
+    modelStdout->setStringList(Stdout);
+}
+

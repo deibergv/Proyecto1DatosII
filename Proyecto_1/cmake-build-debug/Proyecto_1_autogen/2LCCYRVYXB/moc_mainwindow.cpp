@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'mainwindow.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.7.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.7.0)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,15 +12,15 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'mainwindow.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.7.1. It"
+#error "This file was generated using the moc from 5.7.0. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[9];
-    char stringdata0[138];
+    QByteArrayData data[10];
+    char stringdata0[140];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -35,15 +35,16 @@ QT_MOC_LITERAL(2, 32, 0), // ""
 QT_MOC_LITERAL(3, 33, 22), // "on_ClearButton_clicked"
 QT_MOC_LITERAL(4, 56, 21), // "on_StepButton_clicked"
 QT_MOC_LITERAL(5, 78, 21), // "on_StopButton_clicked"
-QT_MOC_LITERAL(6, 100, 9), // "ParseCode"
-QT_MOC_LITERAL(7, 110, 13), // "UpdateLogView"
-QT_MOC_LITERAL(8, 124, 13) // "UpdateRamView"
+QT_MOC_LITERAL(6, 100, 13), // "UpdateLogView"
+QT_MOC_LITERAL(7, 114, 13), // "UpdateRamView"
+QT_MOC_LITERAL(8, 128, 6), // "stdout"
+QT_MOC_LITERAL(9, 135, 4) // "data"
 
     },
     "MainWindow\0on_RunButton_clicked\0\0"
     "on_ClearButton_clicked\0on_StepButton_clicked\0"
-    "on_StopButton_clicked\0ParseCode\0"
-    "UpdateLogView\0UpdateRamView"
+    "on_StopButton_clicked\0UpdateLogView\0"
+    "UpdateRamView\0stdout\0data"
 };
 #undef QT_MOC_LITERAL
 
@@ -67,7 +68,7 @@ static const uint qt_meta_data_MainWindow[] = {
        5,    0,   52,    2, 0x08 /* Private */,
        6,    0,   53,    2, 0x08 /* Private */,
        7,    0,   54,    2, 0x08 /* Private */,
-       8,    0,   55,    2, 0x08 /* Private */,
+       8,    1,   55,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -76,7 +77,7 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    9,
 
        0        // eod
 };
@@ -91,13 +92,12 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 1: _t->on_ClearButton_clicked(); break;
         case 2: _t->on_StepButton_clicked(); break;
         case 3: _t->on_StopButton_clicked(); break;
-        case 4: _t->ParseCode(); break;
-        case 5: _t->UpdateLogView(); break;
-        case 6: _t->UpdateRamView(); break;
+        case 4: _t->UpdateLogView(); break;
+        case 5: _t->UpdateRamView(); break;
+        case 6: _t->stdout((*reinterpret_cast< QString(*)>(_a[1]))); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
 }
 
 const QMetaObject MainWindow::staticMetaObject = {

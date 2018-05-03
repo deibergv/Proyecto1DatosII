@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/deiber/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/kisung/Escritorio/CLion/CLion-2017.3.3/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/deiber/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/kisung/Escritorio/CLion/CLion-2017.3.3/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/deiber/CLionProjects/Proyecto_1
+CMAKE_SOURCE_DIR = "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/deiber/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/kisung/Escritorio/CLion/CLion-2017.3.3/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/deiber/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/kisung/Escritorio/CLion/CLion-2017.3.3/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/CMakeFiles" "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/deiber/CLionProjects/Proyecto_1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kisung/CLionProjects/Proyecto I Datos II/Proyecto_1/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -135,6 +135,33 @@ Proyecto_1_autogen: cmake_check_build_system
 Proyecto_1_autogen/fast:
 	$(MAKE) -f CMakeFiles/Proyecto_1_autogen.dir/build.make CMakeFiles/Proyecto_1_autogen.dir/build
 .PHONY : Proyecto_1_autogen/fast
+
+Client/Client.o: Client/Client.cpp.o
+
+.PHONY : Client/Client.o
+
+# target to build an object file
+Client/Client.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Client/Client.cpp.o
+.PHONY : Client/Client.cpp.o
+
+Client/Client.i: Client/Client.cpp.i
+
+.PHONY : Client/Client.i
+
+# target to preprocess a source file
+Client/Client.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Client/Client.cpp.i
+.PHONY : Client/Client.cpp.i
+
+Client/Client.s: Client/Client.cpp.s
+
+.PHONY : Client/Client.s
+
+# target to generate assembly for a file
+Client/Client.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Client/Client.cpp.s
+.PHONY : Client/Client.cpp.s
 
 GUI/codeeditor.o: GUI/codeeditor.cpp.o
 
@@ -217,32 +244,59 @@ GUI/mainwindow.cpp.s:
 	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/GUI/mainwindow.cpp.s
 .PHONY : GUI/mainwindow.cpp.s
 
-Parse/Tokens.o: Parse/Tokens.cpp.o
+Parser/Parser.o: Parser/Parser.cpp.o
 
-.PHONY : Parse/Tokens.o
+.PHONY : Parser/Parser.o
 
 # target to build an object file
-Parse/Tokens.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parse/Tokens.cpp.o
-.PHONY : Parse/Tokens.cpp.o
+Parser/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parser/Parser.cpp.o
+.PHONY : Parser/Parser.cpp.o
 
-Parse/Tokens.i: Parse/Tokens.cpp.i
+Parser/Parser.i: Parser/Parser.cpp.i
 
-.PHONY : Parse/Tokens.i
+.PHONY : Parser/Parser.i
 
 # target to preprocess a source file
-Parse/Tokens.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parse/Tokens.cpp.i
-.PHONY : Parse/Tokens.cpp.i
+Parser/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parser/Parser.cpp.i
+.PHONY : Parser/Parser.cpp.i
 
-Parse/Tokens.s: Parse/Tokens.cpp.s
+Parser/Parser.s: Parser/Parser.cpp.s
 
-.PHONY : Parse/Tokens.s
+.PHONY : Parser/Parser.s
 
 # target to generate assembly for a file
-Parse/Tokens.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parse/Tokens.cpp.s
-.PHONY : Parse/Tokens.cpp.s
+Parser/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parser/Parser.cpp.s
+.PHONY : Parser/Parser.cpp.s
+
+Parser/tokens.o: Parser/tokens.cpp.o
+
+.PHONY : Parser/tokens.o
+
+# target to build an object file
+Parser/tokens.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parser/tokens.cpp.o
+.PHONY : Parser/tokens.cpp.o
+
+Parser/tokens.i: Parser/tokens.cpp.i
+
+.PHONY : Parser/tokens.i
+
+# target to preprocess a source file
+Parser/tokens.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parser/tokens.cpp.i
+.PHONY : Parser/tokens.cpp.i
+
+Parser/tokens.s: Parser/tokens.cpp.s
+
+.PHONY : Parser/tokens.s
+
+# target to generate assembly for a file
+Parser/tokens.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto_1.dir/build.make CMakeFiles/Proyecto_1.dir/Parser/tokens.cpp.s
+.PHONY : Parser/tokens.cpp.s
 
 Proyecto_1_autogen/mocs_compilation.o: Proyecto_1_autogen/mocs_compilation.cpp.o
 
@@ -308,6 +362,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Proyecto_1"
 	@echo "... Proyecto_1_autogen"
+	@echo "... Client/Client.o"
+	@echo "... Client/Client.i"
+	@echo "... Client/Client.s"
 	@echo "... GUI/codeeditor.o"
 	@echo "... GUI/codeeditor.i"
 	@echo "... GUI/codeeditor.s"
@@ -317,9 +374,12 @@ help:
 	@echo "... GUI/mainwindow.o"
 	@echo "... GUI/mainwindow.i"
 	@echo "... GUI/mainwindow.s"
-	@echo "... Parse/Tokens.o"
-	@echo "... Parse/Tokens.i"
-	@echo "... Parse/Tokens.s"
+	@echo "... Parser/Parser.o"
+	@echo "... Parser/Parser.i"
+	@echo "... Parser/Parser.s"
+	@echo "... Parser/tokens.o"
+	@echo "... Parser/tokens.i"
+	@echo "... Parser/tokens.s"
 	@echo "... Proyecto_1_autogen/mocs_compilation.o"
 	@echo "... Proyecto_1_autogen/mocs_compilation.i"
 	@echo "... Proyecto_1_autogen/mocs_compilation.s"

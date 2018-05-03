@@ -11,5 +11,6 @@ int main(int argc, char *argv[]) {
     MainWindow window;
     window.setWindowTitle("C! - IDE");
     window.show();
+
     return a.exec();
 }

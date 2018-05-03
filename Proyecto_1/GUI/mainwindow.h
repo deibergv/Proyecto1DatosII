@@ -9,10 +9,13 @@
 
 #include "codeeditor.h"
 #include "highlighter.h"
+#include "Parser/Parser.h"
+#include <nlohmann/json.hpp>
 
 namespace Ui {
     class MainWindow;
 }
+using json = nlohmann::json;
 
 class MainWindow : public QMainWindow {
 Q_OBJECT
@@ -26,11 +29,13 @@ private slots:
     void on_ClearButton_clicked();
     void on_StepButton_clicked();
     void on_StopButton_clicked();
-    void ParseCode();
     void UpdateLogView();
     void UpdateRamView();
+    void stdout(QString data);
 
 private:
+    json jsonList;
+    Parser *parser = new Parser();
     Ui::MainWindow *ui;
     Highlighter *highlighter;
 };

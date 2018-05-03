@@ -1,6 +1,8 @@
 #include <QtWidgets>
+#include <iostream>
 
 #include "codeeditor.h"
+#include "mainwindow.h"
 
 CodeEditor::CodeEditor(QWidget *parent) : QPlainTextEdit(parent)
 {
